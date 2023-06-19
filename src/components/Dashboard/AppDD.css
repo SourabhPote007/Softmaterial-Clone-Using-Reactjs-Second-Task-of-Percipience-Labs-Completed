@@ -1,0 +1,415 @@
+.AppMenu
+{
+    width: 180px;
+    height: fit-content;
+    background-color: #fff;
+    color: #616a78;
+    position: absolute;
+    z-index: 20000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    top: 150px;
+    margin-left: -25px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    /* transition: width 9s ease; */
+}
+
+.AppMenu::before
+{
+    content: '';
+    position: absolute;
+    top: -1rem;
+    left: 1.1rem;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-radius: 4px;
+}
+.AppMenu div
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.AppMenu div:hover
+{
+    color: blueviolet;
+}
+
+.MenuDd
+{
+    width: 91%;
+    height: 230px;
+    background-color: #fff;
+    color: #616a78;
+    position: absolute;
+    z-index: 20000;
+    /* margin: auto auto; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+    margin-left: -280px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.MenuDd .MenuCategory
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    gap: 50px;
+}
+.MenuDd .MenuCategory ul
+{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.MenuDd .MenuCategory ul li:hover
+{
+    color: #1976d2;
+}
+/* .MenuDd .MenuCategory ul
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-left: -50px;
+    padding: 15px 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap:130px;
+} */
+.MenuDd .MenuCategory ul .Head
+{
+    font-size: 20px;
+    font-weight: 400;
+    color: #676f7d;
+    text-shadow: rgba(0, 0, 0, .15) 0 0 1px;
+    cursor: text;
+}
+.MenuDd .MenuCategory ul .Head:hover
+{
+    color: #676f7d;
+}
+
+/*  */
+
+.MonthlyDropd
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* color: #616a78; */
+    position: absolute;
+    z-index: 20000;
+    /* margin: auto auto; */
+    padding: 0;
+    margin: 0;
+    /* top: 0px; */
+    /* margin-left: -280px; */
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.MonthlyMenu
+{
+    width: 100%;
+    height: 100%;
+    color: #a0a6b1;
+    font-weight: 300;
+    /* padding: 0px 20px; */
+    /* margin: 0px; */
+    margin: 0;
+    padding: 0;
+}
+
+.MonthlyDropd ul li ion-icon:hover
+{
+    color: #616a78;
+}
+.MonthlyDropd ul li .Name:hover
+{
+    color: #676f7d;
+}
+.MonthlyDropd ul li:hover
+{
+    background-color: #f8f9fa;
+    /* color: #000; */
+}
+.MonthlyDropd ul li
+{
+    margin: 0;
+    padding: 5px 5px;
+}
+#One:hover
+{
+    color: #676f7d;
+}
+.MonthlyDropd ul
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-content: space-between;
+    /* gap: 10px; */
+    cursor: pointer;
+    margin-left: -10px;
+    margin-top: -7px;
+}
+
+/* .MonthlyMenu:hover
+{
+    background-color: #f8f9fa;
+} */
+/* .MonthlyDropd div
+{
+    width: 10px;
+    height: 10px;
+} */
+
+/*  */
+
+.MonthlyDropdTwo
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* color: #616a78; */
+    position: absolute;
+    z-index: 20000;
+    /* margin: auto auto; */
+    padding: 0;
+    margin: 0;
+    /* top: 0px; */
+    /* margin-left: -280px; */
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.MonthlyDropdTwo
+{
+    width: 100%;
+    height: 100%;
+    color: #a0a6b1;
+    font-weight: 300;
+    /* padding: 0px 20px; */
+    /* margin: 0px; */
+    margin: 0;
+    padding: 0;
+}
+
+.MonthlyDropdTwo ul li ion-icon:hover
+{
+    color: #616a78;
+}
+.MonthlyDropdTwo ul li .Name:hover
+{
+    color: #676f7d;
+}
+.MonthlyDropdTwo ul li:hover
+{
+    background-color: #f8f9fa;
+    /* color: #000; */
+}
+.MonthlyDropdTwo ul li
+{
+    margin: 0;
+    padding: 5px 5px;
+}
+#One:hover
+{
+    color: #676f7d;
+}
+.MonthlyDropdTwo ul
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-content: space-between;
+    /* gap: 10px; */
+    cursor: pointer;
+    margin-left: -10px;
+    margin-top: -7px;
+}
+
+/* MonthlyDropdThree */
+
+.MonthlyDropdThree
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* color: #616a78; */
+    position: absolute;
+    z-index: 20000;
+    /* margin: auto auto; */
+    padding: 0;
+    margin: 0;
+    /* top: 0px; */
+    /* margin-left: -280px; */
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.MonthlyDropdThree
+{
+    width: 100%;
+    height: 100%;
+    color: #a0a6b1;
+    font-weight: 300;
+    /* padding: 0px 20px; */
+    /* margin: 0px; */
+    margin: 0;
+    padding: 0;
+}
+
+.MonthlyDropdThree ul li ion-icon:hover
+{
+    color: #616a78;
+}
+/* .MonthlyDropdThree ul li .Name:hover
+{
+    color: #676f7d;
+} */
+.MonthlyDropdThree ul li:hover
+{
+    background-color: #f8f9fa;
+    color: #000;
+}
+.MonthlyDropdThree ul li
+{
+    margin: 0;
+    padding: 5px 5px;
+}
+#One:hover
+{
+    color: #676f7d;
+}
+.MonthlyDropdThree ul
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-content: space-between;
+    /* gap: 10px; */
+    cursor: pointer;
+    margin-left: -10px;
+    margin-top: -7px;
+}
+/*  */
+.MonthlyDropdFour
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* color: #616a78; */
+    position: absolute;
+    z-index: 20000;
+    /* margin: auto auto; */
+    padding: 0;
+    margin: 0;
+    /* top: 0px; */
+    /* margin-left: -280px; */
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.MonthlyDropdFour
+{
+    width: 100%;
+    height: 100%;
+    color: #a0a6b1;
+    font-weight: 300;
+    /* padding: 0px 20px; */
+    /* margin: 0px; */
+    margin: 0;
+    padding: 0;
+}
+
+.MonthlyDropdFour ul li ion-icon:hover
+{
+    color: #616a78;
+}
+.MonthlyDropdFour ul li .Name:hover
+{
+    color: #676f7d;
+}
+.MonthlyDropdFour ul li:hover
+{
+    background-color: #f8f9fa;
+    color: #000;
+}
+.MonthlyDropdFour ul li
+{
+    margin: 0;
+    padding: 5px 5px;
+}
+#One:hover
+{
+    color: #676f7d;
+}
+.MonthlyDropdFour ul
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-content: space-between;
+    /* gap: 10px; */
+    cursor: pointer;
+    margin-left: -10px;
+    margin-top: -7px;
+}
